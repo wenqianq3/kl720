@@ -1,0 +1,12 @@
+.\objects\task_handler.o: ..\..\..\..\platform\kl720\scpu\rtos\rtx\task_handler.c
+.\objects\task_handler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\task_handler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\task_handler.o: ..\..\..\..\include\base.h
+.\objects\task_handler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\task_handler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\task_handler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\task_handler.o: ..\..\main_scpu\include\task_handler.h
+.\objects\task_handler.o: ..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h
+.\objects\task_handler.o: ..\project.h
+.\objects\task_handler.o: ..\..\..\..\platform\kl720\common\membase.h
+.\objects\task_handler.o: ..\..\..\..\platform\board\board_sn72096_11x11\board.h

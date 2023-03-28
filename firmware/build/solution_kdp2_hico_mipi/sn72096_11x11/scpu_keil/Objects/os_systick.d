@@ -1,0 +1,11 @@
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\rtos\rtx\os_systick.c
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h
+.\objects\os_systick.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\drv\include\11x11\ARMCM4_FP.h
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\drv\include\core_cm4.h
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\drv\include\cmsis_version.h
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\drv\include\cmsis_compiler.h
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\drv\include\cmsis_armcc.h
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\drv\include\mpu_armv7.h
+.\objects\os_systick.o: ..\..\..\..\platform\kl720\scpu\drv\include\system_ARMCM4.h

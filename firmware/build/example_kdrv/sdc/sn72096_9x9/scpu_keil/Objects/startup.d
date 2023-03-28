@@ -1,0 +1,10 @@
+.\objects\startup.o: ..\..\..\..\..\platform\kl720\scpu\startup\startup.c
+.\objects\startup.o: ..\..\..\..\..\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h
+.\objects\startup.o: ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h
+.\objects\startup.o: ..\..\..\..\..\platform\kl720\scpu\drv\include\core_cm4.h
+.\objects\startup.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\startup.o: ..\..\..\..\..\platform\kl720\scpu\drv\include\cmsis_version.h
+.\objects\startup.o: ..\..\..\..\..\platform\kl720\scpu\drv\include\cmsis_compiler.h
+.\objects\startup.o: ..\..\..\..\..\platform\kl720\scpu\drv\include\cmsis_armcc.h
+.\objects\startup.o: ..\..\..\..\..\platform\kl720\scpu\drv\include\mpu_armv7.h
+.\objects\startup.o: ..\..\..\..\..\platform\kl720\scpu\drv\include\system_ARMCM4.h

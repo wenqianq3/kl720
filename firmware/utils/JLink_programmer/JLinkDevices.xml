@@ -1,0 +1,25 @@
+<DataBase>
+  <!--                                    -->
+  <!-- Kneron Devices (Cortex-M4 devices) -->
+  <!--                                    -->
+  <Device>
+    <ChipInfo Vendor="Kneron Devices" Name="KL720-WB-P"  WorkRAMAddr="0x1FFC0000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M4"/>
+    <FlashBankInfo Name="SPI Flash" BaseAddr="0x00000000" MaxSize="0x02000000" Loader="Devices/Kneron/Winbond/W25Q256JV-NOR-720-P.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Kneron Devices" Name="KL720-WB"  WorkRAMAddr="0x1FFC0000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M4"/>
+    <FlashBankInfo Name="SPI Flash" BaseAddr="0x00000000" MaxSize="0x02000000" Loader="Devices/Kneron/Winbond/W25Q256JV-NOR-720.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Kneron Devices" Name="KL720-WB-3B"  WorkRAMAddr="0x1FFC0000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M4"/>
+    <FlashBankInfo Name="SPI Flash" BaseAddr="0x00000000" MaxSize="0x01000000" Loader="Devices/Kneron/Winbond/W25Q256JV-NOR-720-3B.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Kneron Devices" Name="KL720-WB-3B-P"  WorkRAMAddr="0x1FFC0000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M4"/>
+    <FlashBankInfo Name="SPI Flash" BaseAddr="0x00000000" MaxSize="0x01000000" Loader="Devices/Kneron/Winbond/W25Q256JV-NOR-720-3B-P.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Kneron Devices" Name="KL720-WB-NAND"  WorkRAMAddr="0x1FFC0000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M4"/>
+    <FlashBankInfo Name="SPI Flash" BaseAddr="0x00000000" MaxSize="0x02000000" Loader="Devices/Kneron/Winbond/W25N01GV-NAND-720.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+</DataBase>

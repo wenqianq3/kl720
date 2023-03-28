@@ -1,0 +1,17 @@
+.\objects\system_init.o: ..\..\main_scpu\system_init.c
+.\objects\system_init.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_system.h
+.\objects\system_init.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_init.o: ..\..\..\..\include\base.h
+.\objects\system_init.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\system_init.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\system_init.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_power.h
+.\objects\system_init.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_status.h
+.\objects\system_init.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_clock.h
+.\objects\system_init.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_scu_ext.h
+.\objects\system_init.o: ..\..\..\..\platform\kl720\common\regbase.h
+.\objects\system_init.o: ..\..\..\..\platform\kl720\scpu\drv\include\11x11\kdrv_scu.h
+.\objects\system_init.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_pll.h
+.\objects\system_init.o: ..\..\..\..\platform\kl720\scpu\drv\include\11x11\kdrv_config.h
+.\objects\system_init.o: ..\project.h
+.\objects\system_init.o: ..\..\..\..\platform\kl720\common\membase.h
+.\objects\system_init.o: ..\..\..\..\platform\board\board_sn72096_11x11\board.h

@@ -1,0 +1,8 @@
+si 1
+speed 10000
+device KL720-WB-NAND
+r
+h
+loadbin .\bin\fw_scpu.bin,0x00040000
+r
+g

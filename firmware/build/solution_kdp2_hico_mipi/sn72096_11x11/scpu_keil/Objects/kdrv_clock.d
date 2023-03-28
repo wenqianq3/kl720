@@ -1,0 +1,15 @@
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\scpu\drv\kdrv_clock.c
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_clock.h
+.\objects\kdrv_clock.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\kdrv_clock.o: ..\..\..\..\include\base.h
+.\objects\kdrv_clock.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\kdrv_clock.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_scu_ext.h
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\common\regbase.h
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\scpu\drv\include\11x11\kdrv_scu.h
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_pll.h
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\scpu\drv\include\11x11\kdrv_config.h
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_ddr.h
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\scpu\drv\include\kneron_kl720.h
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\common\membase.h
+.\objects\kdrv_clock.o: ..\..\..\..\platform\kl720\common\system_config.h

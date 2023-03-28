@@ -1,0 +1,14 @@
+.\objects\main.o: ..\..\main_scpu\main.c
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: ..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: ..\project.h
+.\objects\main.o: ..\..\..\..\platform\kl720\common\membase.h
+.\objects\main.o: ..\..\..\..\platform\board\board_sn72096_11x11\board.h
+.\objects\main.o: ..\..\..\..\include\version.h
+.\objects\main.o: ..\..\main_scpu\include\system_init.h
+.\objects\main.o: ..\..\main_scpu\include\driver_init.h
+.\objects\main.o: ..\..\main_scpu\include\device_init.h
+.\objects\main.o: ..\..\main_scpu\include\middleware_init.h
+.\objects\main.o: ..\..\main_scpu\include\application_init.h

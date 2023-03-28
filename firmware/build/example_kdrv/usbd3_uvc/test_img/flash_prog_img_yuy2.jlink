@@ -1,0 +1,10 @@
+si 1
+speed 10000
+device KL720-WB-NAND
+r
+h
+loadbin .\yuy21.bin,0x00760000
+loadbin .\yuy22.bin,0x00960000
+r
+g
+q

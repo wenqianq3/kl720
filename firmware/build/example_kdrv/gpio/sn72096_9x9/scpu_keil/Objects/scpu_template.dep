@@ -1,0 +1,533 @@
+Dependencies for Project 'scpu', Target 'template': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\project.h)(0x63B6B057)()
+F (..\..\main_scpu\driver_init.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\driver_init.o --omf_browse .\objects\driver_init.crf --depend .\objects\driver_init.d)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_gpio.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_status.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_pinmux.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_uart.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kneron_kl720.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\system_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_USART.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_Common.h)(0x63B6B057)
+F (..\..\main_scpu\system_init.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\system_init.o --omf_browse .\objects\system_init.crf --depend .\objects\system_init.d)
+F (..\..\main_scpu\ex_gpio_main.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\ex_gpio_main.o --omf_browse .\objects\ex_gpio_main.crf --depend .\objects\ex_gpio_main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\main_scpu\include\system_init.h)(0x63B6B057)
+I (..\..\main_scpu\include\driver_init.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\mdw\include\kmdw_console.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\mdw\include\kmdw_status.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_uart.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_status.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kneron_kl720.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\system_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_USART.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_Common.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\mdw\include\kmdw_memory.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+F (..\..\main_scpu\ex_gpio_test.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\ex_gpio_test.o --omf_browse .\objects\ex_gpio_test.crf --depend .\objects\ex_gpio_test.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\errno.h)(0x60252376)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_gpio.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_status.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_pinmux.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_clock.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\include\base.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_scu_ext.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\kdrv_scu.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_pll.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\kdrv_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\mdw\include\kmdw_console.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\mdw\include\kmdw_status.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_uart.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kneron_kl720.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\system_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_USART.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_Common.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\mdw\include\kmdw_memory.h)(0x63B6B057)
+F (..\..\..\..\..\..\firmware\mdw\console\kmdw_console.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\kmdw_console.o --omf_browse .\objects\kmdw_console.crf --depend .\objects\kmdw_console.d)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (..\..\..\..\..\..\firmware\mdw\include\kmdw_console.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\..\..\..\..\..\firmware\mdw\include\kmdw_status.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_uart.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_status.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kneron_kl720.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\system_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_USART.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_Common.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\mdw\include\kmdw_memory.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\ipc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\model_type.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\model_res.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\include\base.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\jpeg_intf.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\tof_intf.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\kp_struct.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+F (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\kdrv_uart.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\kdrv_uart.o --omf_browse .\objects\kdrv_uart.crf --depend .\objects\kdrv_uart.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\errno.h)(0x60252376)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_uart.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_status.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kneron_kl720.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\system_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_USART.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_Common.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\include\io.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_clock.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\include\base.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_scu_ext.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\kdrv_scu.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_pll.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\kdrv_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+F (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\kdrv_timer.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\kdrv_timer.o --omf_browse .\objects\kdrv_timer.crf --depend .\objects\kdrv_timer.d)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_timer.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\include\base.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_status.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kneron_kl720.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\system_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\include\io.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\kdrv_scu.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_scu_ext.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_clock.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_pll.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\kdrv_config.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+F (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\kdrv_clock.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\kdrv_clock.o --omf_browse .\objects\kdrv_clock.crf --depend .\objects\kdrv_clock.d)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_clock.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\include\base.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_scu_ext.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\kdrv_scu.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_pll.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\kdrv_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_ddr.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kneron_kl720.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\system_config.h)(0x63B6B057)
+F (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\kdrv_gpio.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\kdrv_gpio.o --omf_browse .\objects\kdrv_gpio.crf --depend .\objects\kdrv_gpio.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kneron_kl720.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\system_config.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_gpio.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_status.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\kdrv_scu.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+F (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\kdrv_pinmux.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\kdrv_pinmux.o --omf_browse .\objects\kdrv_pinmux.crf --depend .\objects\kdrv_pinmux.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_scu_ext.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_pinmux.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_io.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\include\base.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+F (..\..\..\..\..\..\firmware\platform\kl720\scpu\startup\startup_asm.s)(0x63B6B057)(--cpu Cortex-M4.fp.sp --li -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ..\..\sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\include --cpreproc-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include--pd "__UVISION_VERSION SETA 536" --pd "ARMCM4_FP SETA 1"--list .\listings\startup_asm.lst --xref -o .\objects\startup_asm.o --depend .\objects\startup_asm.d)
+F (..\..\..\..\..\..\firmware\platform\kl720\scpu\startup\startup.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\startup.o --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\irq_cm4f.s)(0x63B6B057)(--cpu Cortex-M4.fp.sp --li -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ..\..\sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\include --cpreproc-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include--pd "__UVISION_VERSION SETA 536" --pd "ARMCM4_FP SETA 1"--list .\listings\irq_cm4f.lst --xref -o .\objects\irq_cm4f.o --depend .\objects\irq_cm4f.d)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\os_systick.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\os_systick.o --omf_browse .\objects\os_systick.crf --depend .\objects\os_systick.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\RTX_Config.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_config.o --omf_browse .\objects\rtx_config.crf --depend .\objects\rtx_config.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_delay.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_delay.o --omf_browse .\objects\rtx_delay.crf --depend .\objects\rtx_delay.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_evflags.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_evflags.o --omf_browse .\objects\rtx_evflags.crf --depend .\objects\rtx_evflags.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_evr.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_evr.o --omf_browse .\objects\rtx_evr.crf --depend .\objects\rtx_evr.d)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_kernel.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_kernel.o --omf_browse .\objects\rtx_kernel.crf --depend .\objects\rtx_kernel.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_lib.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_lib.o --omf_browse .\objects\rtx_lib.crf --depend .\objects\rtx_lib.d)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_memory.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_memory.o --omf_browse .\objects\rtx_memory.crf --depend .\objects\rtx_memory.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_mempool.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_mempool.o --omf_browse .\objects\rtx_mempool.crf --depend .\objects\rtx_mempool.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_msgqueue.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_msgqueue.o --omf_browse .\objects\rtx_msgqueue.crf --depend .\objects\rtx_msgqueue.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_mutex.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_mutex.o --omf_browse .\objects\rtx_mutex.crf --depend .\objects\rtx_mutex.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_semaphore.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_semaphore.o --omf_browse .\objects\rtx_semaphore.crf --depend .\objects\rtx_semaphore.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_system.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_system.o --omf_browse .\objects\rtx_system.crf --depend .\objects\rtx_system.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_thread.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_thread.o --omf_browse .\objects\rtx_thread.crf --depend .\objects\rtx_thread.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)
+F (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\rtx_timer.c)(0x63B6B057)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\..\..\include -I ..\..\main_scpu\include -I ..\..\..\..\..\..\firmware\mdw\include -I ..\..\..\..\..\..\firmware\include -I ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include -I ..\..\..\..\..\platform\kl720\scpu\drv\include\9x9 -I ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9 -I ..\..\..\..\..\..\firmware\platform\dev\include -I ..\..\..\..\..\..\firmware\platform\kl720\common -I ..\..\sn72096_9x9 -I ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include --gnu-ID:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="536" -DARMCM4_FP-o .\objects\rtx_timer.o --omf_browse .\objects\rtx_timer.crf --depend .\objects\rtx_timer.d)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_lib.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_c.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\drv\include\9x9\ARMCM4_FP.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\core_cm4.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_version.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_compiler.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\cmsis_armcc.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\mpu_armv7.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\system_ARMCM4.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_core_cm.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\os_tick.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h)(0x63B6B057)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\RTX_Config.h)(0x63B6B057)
+I (..\..\sn72096_9x9\project.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\kl720\common\membase.h)(0x63B6B057)
+I (..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_os.h)(0x63B6B057)
+I (..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\rtx_evr.h)(0x63B6B057)

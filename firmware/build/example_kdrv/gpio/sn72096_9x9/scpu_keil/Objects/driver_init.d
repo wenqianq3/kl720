@@ -1,0 +1,17 @@
+.\objects\driver_init.o: ..\..\main_scpu\driver_init.c
+.\objects\driver_init.o: ..\..\sn72096_9x9\project.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\common\membase.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\board\board_sn72096_9x9\board.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_gpio.h
+.\objects\driver_init.o: ..\..\..\..\..\platform\kl720\scpu\rtos\rtx\include\cmsis_os2.h
+.\objects\driver_init.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\driver_init.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_status.h
+.\objects\driver_init.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_pinmux.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kdrv_uart.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\kneron_kl720.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\common\regbase.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\common\system_config.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_USART.h
+.\objects\driver_init.o: ..\..\..\..\..\..\firmware\platform\kl720\scpu\drv\include\Driver_Common.h

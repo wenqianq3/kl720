@@ -1,0 +1,20 @@
+#!armcc -E
+
+#include "..\..\..\..\..\firmware\platform\kl720\common\membase.h"
+
+#define SiROM 0x0000000
+#define SDRAM_CODE_START 0x1FFF0000
+#define SDRAM_CODE_SIZE  0x00002000
+
+
+LR_IROM1 SiROM SiRAM_MEM_SIZE  {    ; load region size_region
+    ER_IROM1 SiROM SiRAM_MEM_SIZE  {  ; load address = execution address
+        *.o (RESET, +First)
+        *(InRoot$$Sections)
+        .ANY (+RO)
+    }
+    RW_IRAM1 SdRAM_MEM_BASE 0x0000A000  {  ; RW data
+        .ANY (+RW +ZI)
+    }
+}
+

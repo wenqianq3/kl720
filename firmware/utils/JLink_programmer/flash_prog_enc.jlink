@@ -1,0 +1,12 @@
+si 1
+speed 10000
+device KL720-WB-NAND
+r
+h
+erase
+loadbin .\bin\boot_spl_enc.bin,0x00000000
+loadbin .\bin\boot_spl_enc.bin,0x00020000
+loadbin .\bin\fw_scpu_enc.bin,0x00040000
+loadbin .\bin\fw_ncpu_enc.bin,0x00060000
+r
+g

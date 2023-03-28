@@ -1,0 +1,11 @@
+si 1
+speed 10000
+device KL720-WB-P
+r
+h
+erase
+loadbin .\bin\boot_spl_nor.bin,0x00000000
+loadbin .\bin\fw_scpu.bin,0x00008000
+loadbin .\bin\fw_ncpu.bin,0x00028000
+r
+g

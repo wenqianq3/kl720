@@ -1,0 +1,16 @@
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\kdrv_tdc.c
+.\objects\kdrv_tdc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_status.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_tdc.h
+.\objects\kdrv_tdc.o: ..\..\..\..\include\base.h
+.\objects\kdrv_tdc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\kdrv_tdc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\common\regbase.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\kdrv_cmsis_core.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\11x11\ARMCM4_FP.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\core_cm4.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\cmsis_version.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\cmsis_compiler.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\cmsis_armcc.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\mpu_armv7.h
+.\objects\kdrv_tdc.o: ..\..\..\..\platform\kl720\scpu\drv\include\system_ARMCM4.h
